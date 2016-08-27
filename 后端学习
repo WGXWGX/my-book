@@ -1,0 +1,16 @@
+1.自定义函数
+	执行到return  是最后一条执行语句  有return叫函数，没有return叫过程
+2.die（）；执行到这  调试用
+3.PHP变量全局与局部（prototype 原型链）*
+4.面向对象 globol  $a
+5.function用过一次即消亡
+6.require.js   模块加载
+7.echo (null +1)      得1
+8.static  $a  ;   不污染全局变量      放到静态区  每次访问
+9. 4个标量类型：int float string bool
+	 2个复合类型：array object
+	 2个特殊类型：null resource*/
+	 3.在php中可以嵌入html标签  用echo输出  而且解析的时候不会打出字符串而是实际意义
+10.字符串的长度 :strlen($str);      数组的长度: count($arr);
+11.html 如何原码输出:  echo   '<pre>';    内容      echo   '</pre>';
+ 
