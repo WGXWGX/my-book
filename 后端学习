@@ -13,4 +13,20 @@
 	 3.在php中可以嵌入html标签  用echo输出  而且解析的时候不会打出字符串而是实际意义
 10.字符串的长度 :strlen($str);      数组的长度: count($arr);
 11.html 如何原码输出:  echo   '<pre>';    内容      echo   '</pre>';
+12.原生js可以把字符串转化成对象:
+     var str='{"id":1}';
+     var oStr=eval('('+str+')');
+     alert(ostr.id);
+     alert(ostr);
+     但是用JSON函数进行处理
+13.可以在同一个作用域内就可以使用   懒加载 require.js  模块加载  可以有两个php标签
+14.高内聚，低耦合（前后端联系少），MVC框架（入口文件，路由功能，MVC特性）
+   V: view  html页面
+   错误403   没有权限
+15.CommonJS(
+	1:可以把文件加载成模块
+	2:提供了module.exports  exports 解决了public private
+	)
+16.nodejs才能处理后端
+17.nodejs  异步调用  事件驱动 
  
