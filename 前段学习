@@ -9,3 +9,8 @@ Javascript
 8.做运算时遇到数字运算true:1,flase:0   遇到字符串时，就是true
 9.非空字符串是1，空字符串是0    var a=” ”  console.log(!a);  输出true   
 10.Var a=5  console.log(!a) ,将a以bool类型输出
+11.增加样式的方法
+         常用.ClassName  = 'aa bb'
+         对象.style.width  内联样式 script里
+         window.getComputedStyle(odiv,null).widht    ie不支持    w3c   都传null
+         对象.currentStyle.width     ie
