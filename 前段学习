@@ -4,3 +4,8 @@ Javascript
 3.Var：variable。
 4.首字母不能是数字。首字母小写，剩下大写 myName  -23    $5
 5.Js：弱类型语言，很灵活
+6. 五种类型：Undefined （定义变量未赋值）  none   string     bool     数字
+7.输出类型为NAN:not a number  不是一个数字(str*num）（str-num）
+8.做运算时遇到数字运算true:1,flase:0   遇到字符串时，就是true
+9.非空字符串是1，空字符串是0    var a=” ”  console.log(!a);  输出true   
+10.Var a=5  console.log(!a) ,将a以bool类型输出
