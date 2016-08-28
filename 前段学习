@@ -22,3 +22,8 @@ Javascript
 	jq： offset（）   浏览器
 	     position（） 离近祖祖先元素定位
 	     clientWidth  可视区域的宽度，包括padding  不包括border
+13.async  与defer的区别？  *
+         异步加载
+	defer ： 一边解析一边下载   解析完执行 下载完不一定执行（早期）
+	async ： 一边解析一边下载   下载完执行（新 html5）
+	  使用二者时document.right
