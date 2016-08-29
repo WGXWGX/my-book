@@ -29,3 +29,9 @@ Javascript
 	  使用二者时document.right
 14.AMD    CMD  *
 	CMD推崇依赖就近(sea.js)，AMD  推崇依赖前置(require.js)
+15.css 充满整个屏幕
+	position：absolute
+	        top：0；
+	        bottom： 0；
+	        left： 0；
+	        right： 0；
