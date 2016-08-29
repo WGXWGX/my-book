@@ -35,3 +35,8 @@ Javascript
 	        bottom： 0；
 	        left： 0；
 	        right： 0；
+16.
+	 盒模型：w3c标准盒模型  设宽高指内容 
+		怪异盒模型    设宽高指（内容  padding  border）
+		弹性盒模型    父元素先加display： -webkit-box      
+			      子元素-webkit-box-flex：1；指占几份   
