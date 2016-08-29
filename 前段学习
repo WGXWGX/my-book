@@ -40,3 +40,4 @@ Javascript
 		怪异盒模型    设宽高指（内容  padding  border）
 		弹性盒模型    父元素先加display： -webkit-box      
 			      子元素-webkit-box-flex：1；指占几份   
+17.4.word-break: break-all;    英文想换行      中文自动换行
