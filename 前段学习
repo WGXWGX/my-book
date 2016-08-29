@@ -27,3 +27,5 @@ Javascript
 	defer ： 一边解析一边下载   解析完执行 下载完不一定执行（早期）
 	async ： 一边解析一边下载   下载完执行（新 html5）
 	  使用二者时document.right
+14.AMD    CMD  *
+	CMD推崇依赖就近(sea.js)，AMD  推崇依赖前置(require.js)
