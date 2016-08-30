@@ -61,3 +61,12 @@ Javascript
       外部函数里面定义内部函数
       内部函数调用外部函数的全局变量
       外部函数里面的全局变量不被释放
+22.html5:html语义化
+	（根据内容的结构化选择合适的标签）便于开发者阅读和写出更优雅的代码的同时让浏览器的爬虫和机器很好的解析语义化（常用）
+	 (aside  article   header  footer   nav    radio  等)
+23.video支持三种格式  多种属性（5个）   手册     audio 类似video
+24.选择器
+	document.querySelector    一个
+	document.querySelectorAll          得到数组
+	document.getElementsByClassName  得到nodelist
+	oDiv.classList.add()   classList.toggle()
