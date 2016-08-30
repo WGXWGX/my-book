@@ -41,3 +41,13 @@ Javascript
 		弹性盒模型    父元素先加display： -webkit-box      
 			      子元素-webkit-box-flex：1；指占几份   
 17.4.word-break: break-all;    英文想换行      中文自动换行
+18.transform:  	 -webkit-transform: rotate(30deg)   顺时针 绕中心
+		 -webkit-transform-origin: left top；绕左上转（水平，竖直）
+		 -webkit-transform: scale(2)  水平竖直都2倍   scale(1,2)  负数倒一圈再缩放
+		 -webkit-transform: translate(水平，竖直px)       位移   一参数 水平位移    
+		 -webkit-transform:skew(45deg);  向左扭曲    -45deg  向右扭曲
+19. transition:	 -webkit-transition: width(属性做动画，还可以写all) 1s（动画执行过程时间） ease（快慢  效果） 1s（动画延迟时间）;、、只要属性有变化就执行transition
+		 -webkit-transition-property:width；
+		 -webkit-transition-duration: 1s；
+		 -webkit-transition-timing-function:ease（先快后慢）  linear（匀速） ease-in(加速)  ease-in-out	；	
+		 -webkit-transition-delay:1s；
