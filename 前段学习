@@ -70,3 +70,11 @@ Javascript
 	document.querySelectorAll          得到数组
 	document.getElementsByClassName  得到nodelist
 	oDiv.classList.add()   classList.toggle()
+25.自定义属性：以data-aa开头   jquery 取的时候可以$('').data('aa');
+	       html5 推出 oDiv.dataset    获取所有已data开头的
+26.本地存储
+	1.cookie  document.cookie = 'name=zhangsan';存储文件4k  cookie 会和请求一起被发送到后端
+	2.sessionStorage.name = 'liai';            	  存储5兆    不会和前端的请求一起被调用到后台
+	  sessionStorage.set/get/removeItem('age', 18);  	浏览器×掉就没	
+	3.localStorage.name = ''gfdfxh';    存储5兆    不会和前端的请求一起被调用到后台 不会给后端发送   请求
+27.
