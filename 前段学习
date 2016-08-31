@@ -82,3 +82,9 @@ Javascript
 	480-768   ipad
 	768-960   
 	980-1200  电脑
+28.在css里写  1.  @media  print{
+		body{
+			background: ;
+		}	
+	}			浏览器可视宽度
+	2. @media  screen and\not （max-width：980px \orientation:landscape 
