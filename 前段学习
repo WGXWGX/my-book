@@ -88,3 +88,12 @@ Javascript
 		}	
 	}			浏览器可视宽度
 	2. @media  screen and\not （max-width：980px \orientation:landscape 
+29.
+    		移动端开发 响应式设计js
+zepto 下载
+zepto框架: $('#div1').on('tap',function(){ console.log(123);})
+原生js       touchStart  touchEnd  touchMove touchCancle    swipeLeft    swipeRight 右                     滑
+	swipeTop    swipeBottom 默认滑动30px
+	$(document.body).width();   获取设备宽度
+	**用到img就加图片浮动或display：block；防止  
+
