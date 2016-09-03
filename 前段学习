@@ -106,3 +106,7 @@ zepto框架: $('#div1').on('tap',function(){ console.log(123);})
 	.定位之后就失去文档流，地方会被其他地方占用
 	.不知道高度情况下居中：（top:50%;   transform: translateY(50%);）
 			（top:50%;   transform: translate(50%,50%);）
+31.text-align: right,left,center;    给父元素加的        图片也可以用
+32.移动端用 1.5rem指的是html字体大小的倍数应用于响应式
+	1.5em指的是父元素
+33.压缩方法：html如何压缩（gzip bz2）js压缩（去空格）css压缩（grunt）   
