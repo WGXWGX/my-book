@@ -122,4 +122,8 @@ zepto框架: $('#div1').on('tap',function(){ console.log(123);})
 		2.var str=JSON.stringify(obj1);
 		 var obj2=JSON.parse(str);              完全拷贝
 		 
-35.
+35.闭包三句话 
+      外部函数里面定义内部函数
+     内部函数调用外部函数的全局变量
+    外部函数里面的全局变量不被释放
+36.*JSON.parse()与eval()  的区别：  eval() 不安全   另一个安全  都是解析字符串的
