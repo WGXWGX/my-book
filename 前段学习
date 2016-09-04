@@ -127,3 +127,5 @@ zepto框架: $('#div1').on('tap',function(){ console.log(123);})
      内部函数调用外部函数的全局变量
     外部函数里面的全局变量不被释放
 36.*JSON.parse()与eval()  的区别：  eval() 不安全   另一个安全  都是解析字符串的
+37.4.document.documentElement  指的是html
+5.offset() 离浏览器定位    position()    已定位的祖先元素
