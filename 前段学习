@@ -110,3 +110,16 @@ zepto框架: $('#div1').on('tap',function(){ console.log(123);})
 32.移动端用 1.5rem指的是html字体大小的倍数应用于响应式
 	1.5em指的是父元素
 33.压缩方法：html如何压缩（gzip bz2）js压缩（去空格）css压缩（grunt）   
+34.1.对象拷贝（深层次拷贝）：1.复杂类型拷贝：
+	解决办法（封装函数）
+	function clone(obj){
+	var newObj = new object();
+	for(var p in obj){
+		newObj[p] = obj[p];
+	}
+	return obj;
+}
+		2.var str=JSON.stringify(obj1);
+		 var obj2=JSON.parse(str);              完全拷贝
+		 
+35.
