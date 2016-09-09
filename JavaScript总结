@@ -5,3 +5,11 @@
 1.2、JavaScript是跨平台的
 
 　　JavaScript是依赖于浏览器本身的，与操作系统无关。
+2.3、使用typeof关键字查看变量代表的具体数据类型
+
+　　typeof 运算符有一个参数，即要检查的变量或值。例如：
+
+    1 var sTemp = "test string";
+    2 alert (typeof sTemp);    //输出 "string"
+    3 alert (typeof 86);    //输出 "number"
+3.
